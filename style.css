@@ -1,0 +1,340 @@
+/* font-family: 'Dancing Script', cursive; */
+/* font-family: 'Dosis', sans-serif; */
+/* font-family: 'Bitter', serif; */
+/* font-family: 'Kreon', serif; */
+/* font-family: 'DM Sans', sans-serif; */
+body {
+    overflow-x: hidden;
+    background: #FBEAEB
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.imgt {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#btun {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 523px;
+}
+
+#fire {
+    width: 219px;
+    height: 50px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 25px;
+    text-transform: capitalize;
+    font-weight: 700;
+    background-color: white;
+    border: 1px solid blue;
+    border-radius: 5px;
+    color: #3569f3;
+    font-family: 'DM Sans', sans-serif;
+    padding: 10px 25px;
+    margin: 0px 35px;
+    
+
+}
+#fire:hover{
+    color: white;
+    background-color: rgba(0, 0, 255, 0.609);
+    transition: all 0.2s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#bgh {
+    text-transform: capitalize;
+    font-family: 'Dosis', sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+
+}
+
+.headp {
+    text-transform: capitalize;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background: black; */
+    /* background-color: white */
+
+}
+
+ul {
+    display: flex;
+    position: relative;
+    right: -34px;
+}
+
+ul li {
+    list-style: none;
+    padding: 10px 25px;
+    margin: 0px 35px;
+    font-size: 22px;
+    text-transform: capitalize;
+    color: black;
+    border: 1px solid blue;
+    font-family: 'DM Sans', sans-serif;
+    cursor: pointer;
+    color: #3569f3;
+    border-radius: 5px;
+    /* font-family: 'Dancing Script', cursive; */
+
+
+}
+
+.ram {
+    position: relative;
+    right: 185px;
+    mix-blend-mode: multiply;
+
+}
+
+ul li:hover {
+    color: white;
+    background-color: rgba(0, 0, 255, 0.609);
+    transition: all 0.2s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+main {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid black; */
+}
+
+.mainim {
+    height: 300px;
+    width: 488px;
+    margin: 10px 10px;
+    position: relative;
+    bottom: -6px;
+    border-radius: 15px;
+
+}
+
+div h1 {
+    text-align: center;
+    font-family: 'Kreon', serif;
+
+}
+
+.about {
+    font-size: 18px;
+    /* font-family: 'Bitter', serif; */
+    font-family: 'Calligraffitti', cursive;
+
+    font-weight: 300;
+}
+
+.write {
+    /* /* border: 1px solid black; */
+    color: #2F3C7E;
+}
+
+.mainim:hover {
+    /* box-shadow: 10px 10px white; */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.btn {
+    position: relative;
+    left: 252px;
+    top: -56px;
+    padding: 10px 10px;
+    /* margin: auto; */
+    font-size: 22px;
+    text-transform: capitalize;
+    color: black;
+    border: 1px solid blue;
+    background: white;
+    cursor: pointer;
+    /* font-family: 'Dancing Script', cursive; */
+    font-family: 'DM Sans', sans-serif;
+    width: 351px;
+    text-align: center;
+    color: #3569f3;
+    border-radius: 5px;
+}
+
+
+.btn:hover {
+    color: white;
+    background-color: rgba(0, 0, 255, 0.609);
+    transition: all 0.2s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+
+}
+
+.menu {
+    display: flex;
+}
+
+.menuimg {
+    height: 325px;
+    width: 488px;
+    margin: 10px 10px;
+    position: relative;
+    border-radius: 15px;
+    /* bottom: -6px; */
+}
+
+.menuflex {
+    display: flex;
+}
+
+.menuwrite {
+    position: relative;
+    bottom: -80px;
+    color: #2F3C7E;
+}
+
+.menup {
+    font-size: 18px;
+    font-family: 'Bitter', serif;
+    font-weight: 300;
+    width: 63vw;
+    font-family: 'Calligraffitti', cursive;
+
+}
+
+.hellomenu {
+    text-align: center;
+    font-family: 'Kreon', serif;
+    text-transform: capitalize;
+
+}
+
+.menuimg:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+.menubtn {
+    position: relative;
+    left: 718px;
+    top: -80px;
+    padding: 10px 10px;
+    /* margin: auto; */
+    font-size: 22px;
+    text-transform: capitalize;
+    color: black;
+    border: 1px solid blue;
+    background: white;
+    cursor: pointer;
+    /* font-family: 'Dancing Script', cursive; */
+    font-family: 'DM Sans', sans-serif;
+    width: 351px;
+    text-align: center;
+    color: #3569f3;
+    border-radius: 5px;
+}
+
+.menubtn:hover {
+    color: white;
+    background-color: rgba(0, 0, 255, 0.609);
+    transition: all 0.2s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#labout {
+    text-decoration: none;
+    padding: 10px 25px;
+    margin: 0px 35px;
+    font-size: 22px;
+    text-transform: capitalize;
+    color: black;
+    border: 1px solid blue;
+    font-family: 'DM Sans', sans-serif;
+    cursor: pointer;
+    color: #3569f3;
+    border-radius: 5px;
+}
+
+#labout:hover {
+    color: white;
+    background-color: rgba(0, 0, 255, 0.609);
+    transition: all 0.2s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.bg {
+    position: relative;
+    background: url("nick-karvounis-Ciqxn7FE4vE-unsplash.jpg") center no-repeat;
+    background-size: cover;
+    width: calc(100vw - 20px);
+    height: 800px;
+}
+
+.bto {
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    height: 60px;
+    font-size: 22px;
+    text-transform: capitalize;
+    color: black;
+    border: 1px solid blue;
+    bottom: 371px;
+    background: white;
+    cursor: pointer;
+
+    font-family: 'DM Sans', sans-serif;
+    width: 351px;
+    text-align: center;
+    color: #3569f3;
+    border-radius: 5px;
+
+}
+
+#map {
+    text-decoration: none;
+    text-align: inherit;
+    position: relative;
+    left: 2px;
+    bottom: -13px;
+    font-size: 28px;
+    text-transform: capitalize;
+    font-family: 'DM Sans', sans-serif;
+    color: #3569f3;
+
+}
+
+.bto:hover {
+    background-color: rgba(0, 0, 255, 0.917);
+    transition: all 0.2s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+#map:hover {
+    color: white;
+
+}
+
+#bg {
+    width: 100vw;
+    height: 800px;
+}

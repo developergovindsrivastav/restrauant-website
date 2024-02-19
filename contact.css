@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    overflow-x: hidden;
+    background: #FBEAEB
+}
+
+.name,
+.email,
+.phone,
+.message {
+    font-size: 29px;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    top: 13px;
+    font-family: 'DM Sans', sans-serif;
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin: 0px 2px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#message {
+    height: 50%;
+}
+
+.submit {
+    margin: 12px auto;
+    width: 145px;
+    cursor: pointer;
+    font-size: 25px;
+    height: 50px;
+    margin-left: 47vw;
+    text-align: center;
+    text-align: center;
+    color: #3569f3;
+    border-radius: 5px;
+}
+
+.submit:hover {
+    color: white;
+    background-color: rgba(0, 0, 255, 0.609);
+    transition: all 0.2s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
